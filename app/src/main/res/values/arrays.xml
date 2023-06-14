@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="roles_array">
+        <item>User</item>
+        <!-- Add more role items as needed -->
+    </string-array>
+
+    <string-array name="days_array">
+        <item>Day 1</item>
+        <item>Day 2</item>
+        <item>Day 3</item>
+        <!-- Add more day items as needed -->
+    </string-array>
+
+    <string-array name="months_array">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+        <!-- Add more month items as needed -->
+    </string-array>
+
+    <string-array name="years_array">
+        <item>Year 1</item>
+        <item>Year 2</item>
+        <item>Year 3</item>
+        <!-- Add more year items as needed -->
+    </string-array>
+
+    <string-array name="genders_array">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+        <!-- Add more gender items as needed -->
+    </string-array>
+
+    <string-array name="product_types">
+        <item>Milk</item>
+        <item>Junk Food</item>
+        <item>Soft Drink</item>
+        <!-- Add more product types as needed -->
+    </string-array>
+</resources>

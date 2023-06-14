@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Color Definitions -->
+    <color name="facebook_blue">#3b5998</color>
+    <color name="facebook_light_blue">#8b9dc3</color>
+    <color name="facebook_dark_blue">#23385f</color>
+    <color name="facebook_white">#ffffff</color>
+    <color name="facebook_black">#000000</color>
+
+    <!-- Base application theme. -->
+    <style name="Base.Theme.EyeBall" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/facebook_blue</item>
+        <item name="colorPrimaryVariant">@color/facebook_light_blue</item>
+        <item name="colorOnPrimary">@color/facebook_white</item>
+        <item name="colorSecondary">@color/facebook_dark_blue</item>
+        <item name="colorSecondaryVariant">@color/facebook_blue</item>
+        <item name="colorOnSecondary">@color/facebook_white</item>
+        <item name="android:textColorPrimary">@color/facebook_black</item>
+        <item name="android:textColorSecondary">@color/facebook_black</item>
+        <item name="android:colorControlNormal">@color/facebook_black</item>
+    </style>
+
+    <style name="Theme.EyeBall" parent="Base.Theme.EyeBall" />
+
+</resources>

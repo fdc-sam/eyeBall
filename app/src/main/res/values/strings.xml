@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">ExpenseTraker</string>
+    <string name="peso_sign">&#8369;</string>
+    <string name="title_activity_update_user">UpdateUser</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="font_awesome_solid">fonts/fontawesome_webfont_free_solid.otf</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="fa_arrow_right">&#x276F;</string>
+    <string name="fa_arrow_left">&#x276E;</string>
+    <string name="division_slash">&#x2215;</string>
+    <string name="vertical_ellipsis">&#8942;</string>
+
+
+    <!-- login   -->
+    <string name="str_username">Username</string>
+    <string name="str_password">Password</string>
+    <string name="str_signin">Login</string>
+    <string name="str_signup">Sing up</string>
+    <string name="str_update">Update</string>
+
+    <!-- product -->
+    <string name="add_product">Add Product</string>
+
+    <string name="str_remember_me">Remember me</string>
+</resources>

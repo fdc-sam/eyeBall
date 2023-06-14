@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.VideoCallFragment"
+    android:background="@drawable/background_blur"
+    android:clickable="true"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/rounded_corner_default"
+        android:orientation="vertical"
+        android:padding="40dp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        >
+
+        <com.zegocloud.uikit.prebuilt.call.invite.widget.ZegoSendCallInvitationButton
+            android:id="@+id/video_call_btn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginHorizontal="10dp"
+            android:background="@drawable/btn_round_background_green"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:visibility="gone"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/alert_btn_video_call"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Video call"
+            android:textAllCaps="false"
+            android:padding="12dp"
+            android:layout_marginTop="20dp"
+            android:textSize="16dp"
+            android:textColor="@color/white"
+            android:background="@drawable/rounded_corner_primary"
+            >
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/alert_btn_hide_video_call_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:textAllCaps="false"
+            android:padding="12dp"
+            android:layout_marginTop="20dp"
+            android:textSize="16dp"
+            android:textColor="@color/black"
+            android:background="@drawable/rounded_corner_default"
+            >
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+    </LinearLayout>
+
+</RelativeLayout>
